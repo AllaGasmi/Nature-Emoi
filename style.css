@@ -1,0 +1,52 @@
+@import url(https: //fonts.google.com/specimen/Montserrat?query=monts);
+@import url(https: //fonts.google.com/specimen/Abril+Fatface?query=abril&sidebar.open&selection.family=Abril+Fatface);
+
+body {
+    margin: O auto;
+}
+*{
+    font-family:"Montserrat", sans-serif;
+}
+
+.top-page{
+    background:url('images/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+    
+}
+.barrenav{
+    display: flex;
+    align-items: center;
+}
+.barrenav img{
+    width: 150px;
+    
+    border-radius: 50%;
+}
+.menu>ul{
+    display:flex;
+    list-style: none;
+    width:400px;
+    justify-content: space-between;
+    margin-left:30 px;
+     
+}
+.menu li{
+    color: white;
+}
+.bigtitle{
+    color: white;
+    font-size: 40px;
+    font-family:"Abril Fatface", cursive;
+    font-weight: 100;
+    margin-top: 100px;
+    width: 450px;
+    padding: 5px;
+
+}
+.top-page>a{
+    color: white;
+    padding: 5px;
+}
+
