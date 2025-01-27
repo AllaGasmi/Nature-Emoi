@@ -49,4 +49,81 @@ body {
     color: white;
     padding: 5px;
 }
+.services>ul{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
 
+
+}
+.services>ul>li {
+    color:green;
+    text-align:center;
+    list-style: none;
+    padding: 10px;
+
+}
+.services>ul>li>p{
+   color: black;
+   width: 150px;
+   
+}
+.vente{
+    margin:200,auto,auto,40;
+}
+.vente>h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,sans-serif;
+    font-size: 40px;
+   margin: auto;
+    
+
+}
+.bellevente{
+    width: 20px;
+    height: 20px;
+}
+
+.bellevente>ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.bellevente>ul>li>img{
+    width: 300px;
+}
+.prix>ul {
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    text-align:left;
+    background-color:#ffffff ;
+    border-radius: 12px;
+
+}
+.plante{
+    text-size:20px;
+    font-weight: bold;
+
+}
+.prixplante{
+    color:#ADD981;
+    padding: 5px;
+    font-size:small;
+
+}
+.savoir{
+    background-color: #ADD981;
+    font-size: small;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    
+    border-radius: 12px;
+    
+}
+.affiche{
+    display: flex;
+    justify-content: space-around;
+    
+}
