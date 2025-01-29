@@ -6,6 +6,7 @@ body {
 }
 *{
     font-family:"Montserrat", sans-serif;
+    
 }
 
 .top-page{
@@ -27,13 +28,16 @@ body {
 .menu>ul{
     display:flex;
     list-style: none;
-    width:400px;
+    width: 100%;
     justify-content: space-between;
     margin-left:30 px;
      
 }
-.menu li{
+.menu li>a{
     color: white;
+    text-decoration: none;
+    
+    
 }
 .bigtitle{
     color: white;
@@ -50,6 +54,7 @@ body {
     padding: 5px;
 }
 .services>ul{
+    padding-bottom: 10px;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -69,28 +74,34 @@ body {
    
 }
 .vente{
-    margin:200,auto,auto,40;
+    /* margin:200px auto auto 40px; */
 }
 .vente>h2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,sans-serif;
+    font-family: Arial, cursive;
     font-size: 40px;
    margin: auto;
     
 
 }
+.vente>h2::first-letter{
+    font-size: 50px;
+    text-decoration: underline green;
+}
 .bellevente{
-    width: 20px;
-    height: 20px;
+    width: auto;
+    height: auto;
 }
 
 .bellevente>ul{
     display: flex;
+    position: relative;
     list-style: none;
     padding: 10px;
 }
 
 .bellevente>ul>li>img{
     width: 300px;
+    display: block;
 }
 .prix>ul {
     justify-content: space-around;
@@ -99,6 +110,7 @@ body {
     text-align:left;
     background-color:#ffffff ;
     border-radius: 12px;
+    height: 40px;
 
 }
 .plante{
@@ -125,5 +137,65 @@ body {
 .affiche{
     display: flex;
     justify-content: space-around;
+    height: 40px;
     
+}
+.nosplantes>ul{
+    display: flex;
+    justify-content:space-evenly;  
+    width: 1200px;
+    list-style: none;
+
+}
+.im1{
+    width: 350px;
+    height: 500px;
+    
+}
+.im2{
+    width: 350px;
+    height: 229px;
+    
+}
+.plantes>h2 {
+    font-family: Arial, cursive;
+    font-size: 40px;
+    /* padding: 50px; */
+
+
+}
+
+.plantes>h2::first-letter {
+    font-size: 50px;
+    text-decoration: underline green;
+}
+.im4,.im6{
+    width: 280px;
+    height: 450px;
+
+}
+.im5{
+    width: 410px;
+    height: 450px;
+}
+.footer{
+    padding-top: 50px;
+}
+.footer>ul{
+    
+    background-color: #ADD981;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+footer>p{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: xx-small;
 }
